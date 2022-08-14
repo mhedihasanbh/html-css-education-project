@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University-website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <a href=""><img src="image/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Cource</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <div class="text-box">
+          <h2>World Biggest University</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum vitae ex dolorum beatae? Enim officiis rem quaerat consequuntur iure doloremque reprehenderit, 
+
+          </p>
+          <a href="" class="hero-btn">Visit us To Know More</a>
+       </div>
+    </section>
+    <!--cource-->
+    <section class="cource">
+      <h1>Cource We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sint? Sit natus officiis delectus doloremque placeat sed pariatur facere at est id, obcaecati dolorum rem! Id aperiam reiciendis necessitatibus enim.</p>
+      <div class="row">
+        <div class="cource-col">
+            <h3>intermidate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, accusamus labore itaque cumque temporibus, doloribus pariatur fuga id praesentium recusandae eligendi eius voluptas repudiandae dolore error, dolorem consectetur voluptatem aperiam.</p>
+        </div>
+      
+       <div class="cource-col">
+            <h3>Basic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, accusamus labore itaque cumque temporibus, doloribus pariatur fuga id praesentium recusandae eligendi eius voluptas repudiandae dolore error, dolorem consectetur voluptatem aperiam.</p>
+        </div>
+     
+         <div class="cource-col">
+            <h3>Pro</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, accusamus labore itaque cumque temporibus, doloribus pariatur fuga id praesentium recusandae eligendi eius voluptas repudiandae dolore error, dolorem consectetur voluptatem aperiam.</p>
+        </div>
+      </div>
+    
+    </section>
+    <!---campus-->
+     <section class="campus">
+       <h1>Our Global Campus</h1>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis voluptatem eligendi a odio? Exercitationem illum ut quam molestiae rem ipsum eius, esse ipsam alias! Sapiente amet et tempore repellendus doloremque.</p>
+       <div class="row">
+         <div class="campus-col">
+            <img src="image/london.png"/>
+            <div class="layer">
+                <h3>New York</h3>
+            </div>
+         </div>
+         <div class="campus-col">
+            <img src="image/newyork.png"/>
+            <div class="layer">
+                <h3>London</h3>
+            </div>
+         </div>
+         <div class="campus-col">
+            <img src="image/washington.png"/>
+            <div class="layer">
+                <h3>Washing Ton</h3>
+            </div>
+         </div>
+       </div>
+     </section>  
+     <section class="facilites">
+       <h3>Our Facilites</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quisquam autem sit rerum natus deleniti ad expedita harum voluptatibus pariatur eaque veritatis odio omnis nam, labore laboriosam eum earum fuga!</p>
+       <div class="row">
+         <div class="facilites-col">
+            <img src="image/library.png">
+            <h3>World Class Libary</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, dignissimos necessitatibus similique dicta quaerat natus sapiente rerum reiciendis ab tempora est cum debitis velit temporibus in nam nesciunt odio impedit?</p>
+         </div>
+         <div class="facilites-col">
+            <img src="image/basketball.png">
+            <h3>Largest Playground</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, dignissimos necessitatibus similique dicta quaerat natus sapiente rerum reiciendis ab tempora est cum debitis velit temporibus in nam nesciunt odio impedit?</p>
+         </div>
+         <div class="facilites-col">
+            <img src="image/cafeteria.png">
+            <h3>Tasty and Helath Food</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, dignissimos necessitatibus similique dicta quaerat natus sapiente rerum reiciendis ab tempora est cum debitis velit temporibus in nam nesciunt odio impedit?</p>
+         </div>
+       </div>
+     </section>  
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
